@@ -1,0 +1,41 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Change font */
+  background-color: #f0f0f0; /* Change background color */
+  color: #333; /* Change text color */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px; /* Increase max-width */
+  margin: 20px auto; /* Add margin */
+  padding: 20px;
+  background-color: #fff; /* Change container background color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box-shadow */
+}
+
+h1 {
+  font-size: 32px; /* Increase heading size */
+  margin-bottom: 30px; /* Increase margin */
+  text-align: center; /* Center align heading */
+}
+
+button {
+  background-color: #ff6347; /* Change button background color to a coral shade */
+  border: none;
+  color: white;
+  padding: 12px 24px; /* Increase padding */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px; /* Increase font size */
+  margin-top: 20px; /* Increase margin top */
+  cursor: pointer;
+  border-radius: 8px; /* Increase border radius */
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+button:hover {
+  background-color: #ff4c36; /* Darken button color on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Increase box-shadow on hover */
+}
